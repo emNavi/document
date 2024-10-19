@@ -2,20 +2,17 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export const zhNavbar = defineNavbarConfig([
   { text: '首页', link: '/' },
-  { text: '博客', link: '/blog/' },
+  // { text: '博客', link: '/blog/' },
   // { text: '标签', link: '/blog/tags/' },
   // { text: '归档', link: '/blog/archives/' },
   {
-    text: '笔记',
+    text: '开发指南',
+    icon: 'material-symbols:menu-book',
     items: [{ text: '示例', link: '/notes/demo/README.md' },
-      { text: 'px4源码解析', link: '/notes/px4code/README.md' },
-      { text: 'linux基础', link: '/notes/linux_base/README.md' },
-
-      { text: '机器人基础', link: '/notes/robot_base/README.md' },
-      { text: '硬件文档', link: '/notes/normal_hw/vimedge2.md' }
-
+      { text: '无人机开发套件', link: '/notes/droneKit/README.md' },
     ]
   },
+  {text: '关于', link: '/about.md'}
 ])
 
 export const enNavbar = defineNavbarConfig([

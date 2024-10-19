@@ -22,40 +22,17 @@ const zhDemoNote = defineNoteConfig({
   // ]
 })
 
-const zhPx4CodeNote = defineNoteConfig({
-  dir: 'px4code',
-  link: '/px4code',
-  sidebar: ['', 'atti_control', 'EKF_height','px4_mode','firmware_change','mc_mixer'],
+const zhDroneKitNote = defineNoteConfig({
+  dir: 'droneKit',
+  link: '/droneKit',
+  sidebar: 'auto',
 })
 
-const zhRobotBaseNote = defineNoteConfig({
-  dir: 'robot_base',
-  link: '/robot_base',
-  sidebar: ['', 'mc_model','rigidbody_model'],
-
-
-})
-
-
-const zhLinuxBaseNote = defineNoteConfig({
-  dir: 'linux_base',
-  link: '/linux_base',
-  // sidebar: ['', 'sougou_install','apache_qs'],
-  sidebar: 'auto'
-})
-
-const zhNormalHwBaseNote = defineNoteConfig({
-  dir: 'normal_hw',
-  link: '/normal_hw',
-  // sidebar: ['', 'vimedge2'],
-  sidebar: 'auto'
-
-})
 
 export const zhNotes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [zhDemoNote,zhPx4CodeNote,zhRobotBaseNote,zhNormalHwBaseNote,zhLinuxBaseNote],
+  notes: [zhDemoNote,zhDroneKitNote],
 })
 
 /* =================== locale: en-US ======================= */

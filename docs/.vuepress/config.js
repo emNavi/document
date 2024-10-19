@@ -7,12 +7,12 @@ export default defineUserConfig({
   lang: 'zh-CN',
   locales: {
     '/': {
-      title: 'Reflections of Hyaline',
+      title: 'emNavi',
       lang: 'zh-CN',
       description: '机器人,px4飞控设计使用心得',
     },
     '/en/': {
-      title: 'Reflections of Hyaline',
+      title: 'emNavi',
       lang: 'en-US',
       description: '机器人,px4飞控设计使用心得',
     },

@@ -1,10 +1,10 @@
 ---
 title: 文档构建指南
 createTime: 2024/09/06 22:07:13
-permalink: /demo/
+permalink: /droneKit/
 ---
 
-# 文档构建指南
+<!-- # 文档构建指南 -->
 
 文档基于vuepress 构建，使用了vuepress-theme-plume 主题，如果你想从零开始构建，请参考[安装/使用](https://theme-plume.vuejs.press/guide/quick-start/)。
 
