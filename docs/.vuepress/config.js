@@ -3,7 +3,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/Knowledge-Base/',
+  base: '/',
   lang: 'zh-CN',
   locales: {
     '/': {
@@ -22,7 +22,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     // 添加您的部署域名
-    hostname: 'https://hyaline-wang.github.io/Knowledge-Base/',
+    hostname: 'https://emnavi.tech/',
 
     plugins: {
       /**
