@@ -3,34 +3,34 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: hero
+    type: banner
     full: true
-    # banner: https://emnavi-doc-img.oss-cn-beijing.aliyuncs.com/hao_image/wall_paper/wallhaven-rrl1kj_1920x1200.png
+    banner: https://emnavi-doc-img.oss-cn-beijing.aliyuncs.com/osstest2/wallpaper/mid%E6%95%88%E6%9E%9C.png
     # banner: https://api.pengzhanbo.cn/wallpaper/bing
 
     background: tint-plate
     tintPlate: 210
     hero:
       name: emNavi
-      # tagline: Notebook
-      text: Embodied Navigation
-      actions:
-        -
-          theme: brand
-          text: 硬件文档
-          link: /normal_hw/
-        -
-          theme: brand
-          text: Linux实践
-          link: /linux_base/
-        -
-          theme: brand
-          text: 机器人基础
-          link: /robot_base/
-        -
-          theme: brand
-          text: Px4源码阅读
-          link: /px4code/
+      tagline: Embodied Navigation
+      # text: Embodied Navigation
+      # actions:
+      #   -
+      #     theme: brand
+      #     text: 硬件文档
+      #     link: /normal_hw/
+      #   -
+      #     theme: brand
+      #     text: Linux实践
+      #     link: /linux_base/
+      #   -
+      #     theme: brand
+      #     text: 机器人基础
+      #     link: /robot_base/
+      #   -
+      #     theme: brand
+      #     text: Px4源码阅读
+      #     link: /px4code/
         # -
         #   theme: alt
         #   text: Github →
