@@ -29,3 +29,6 @@ pnpm vp-update
 ## 开发须知
 
 图像、视频资源，可以放在网上或者 .vuepress/public 下
+
+图标可使用 https://icon-sets.iconify.design/noto/
+无需署名，可商业使用
