@@ -1,94 +1,38 @@
 ---
-title: 文档构建指南
+title: 什么是 emNavi ?
 createTime: 2024/09/06 22:07:13
 permalink: /droneKit/
+readingTime: false
 ---
 
-<!-- # 文档构建指南 -->
+*Embodied Navigation* (**emNavi**) 是一项基于感知的无人机具身智能导航与控制的研究项目。旨在将最前沿的人工智能与优化方法部署于嵌入式层级的移动机器人之上。
+该项目开发了无人机科研平台 **X152b**、 **X660** 等，精简并集成了多种基于无人机平台的前沿研究算法。本文介绍了 **emNavi** 项目基于 **X152b** 型无人机的二次开发平台，以及几种典型智能算法的一键部署。
 
-文档基于vuepress 构建，使用了vuepress-theme-plume 主题，如果你想从零开始构建，请参考[安装/使用](https://theme-plume.vuejs.press/guide/quick-start/)。
+## X152b平台
 
-## github action
+X152b 是一款集成了双目深度相机 D430、轻量级机载算力平台 Edge2、Mini PX4 飞控、以及穿越机动力套件的自主飞行无人机。
 
-将以下文件覆盖到 ==.github/deploy.yml== 中
+<!-- TODO(Derkai):修改图片 -->
+<ImageCard
+  image="https://emnavi-doc-img.oss-cn-beijing.aliyuncs.com/emnavi_assets/intro/X152b-main.png"
+  title="X152b"
+  description="集成了双目深度相机 D430、轻量级机载算力平台 Edge2、Mini PX4 飞控、以及穿越机动力套件的自主飞行无人机。"
+  href="/"
+  author="Andreas Kunz"
+  date="2024/08/16"
+/>
 
-```yaml
-name: deploy
+## 我能用它做什么？
 
-on:
-  # 每当 push 到 master 分支时触发部署
-  push:
-    branches: [master]
-  # 手动触发部署
-  workflow_dispatch:
+X152b 预装载了 Ubuntu20.04.6-LTS 操作系统，并提供基于此环境的无人机感知、规划、控制、以及学习的二次开发平台。
 
-jobs:
-  docs:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
-          # "Last updated time" and other git log-related information require fetching all commit records.
-          fetch-depth: 0
+## 我该如何使用它？
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          # 选择要使用的 pnpm 版本
-          version: 9
-          # 使用 pnpm 安装依赖
-          run_install: true
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          # 选择要使用的 node 版本
-          node-version: 20
-      # 运行构建脚本
-      # Run the build script
-      - name: Build VuePress site
-        run: pnpm run docs:build
+你可以通过本文档来全面的熟悉 emNavi 项目，本文档分为三个部分，主要内容概括如下：
 
-      # add CNAME
-      - name: Add CNAME
-        run: cp CNAME docs/.vuepress/dist
-        
-      # 查看 workflow 的文档来获取更多信息
-      # @see https://github.com/crazy-max/ghaction-github-pages
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          # 部署到 gh-pages 分支
-          target_branch: gh-pages
-          # 部署目录为 VuePress 的默认输出目录
-          build_dir: docs/.vuepress/dist
-        env:
-          # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+- 快速配置：快速上手X152b。
 
-```
+- 算法部署：介绍基于X152b的前沿开源算法部署方法。该部分将会随着我们对更多算法的优化与适配而不断扩充。
 
-上面脚本中有几个注意点
+- 问题答疑：针对无人机软硬件各种常见问题的解答。
 
-- `CNAME` 需要提前创建到工程根目录下，如果不需要自定义域名，可以删除上面CNAME复制的那段
-- 设置正确的[base](https://v2.vuepress.vuejs.org/zh/reference/config.html#base)
-
-## 其他平台的部署
-
-- 参考plume的[部署页面](https://theme-plume.vuejs.press/guide/deployment/)。
-
-
-## pnpm docs:dev
-
-- 修改.vuepress 中文件不会自动更新
-
-
-
-## 图床 
-
-:::caution
-国内全部需要备案，所以OSS用起来也并不方便，
-
-:::
-
-1. 安装picgo 

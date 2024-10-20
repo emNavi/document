@@ -1,7 +1,6 @@
 # emNavi Document
 
 [emNavi 官网](https://emnavi.tech)
-<!-- The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) -->
 
 ## Install
 
@@ -26,3 +25,7 @@ pnpm vp-update
 
 - [vuepress](https://vuepress.vuejs.org/)
 - [vuepress-theme-plume](https://theme-plume.vuejs.press/)
+
+## 开发须知
+
+图像、视频资源，可以放在网上或者 .vuepress/public 下
