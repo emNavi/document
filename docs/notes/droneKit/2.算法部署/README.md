@@ -56,7 +56,7 @@ bash scripts/build.sh
 :::: steps
 
 - ### 传感器标定
-  <LinkCard icon="twemoji:astonished-face" title="传感器标定" href="/droneKit/传感器标定/" > </LinkCard>
+  <LinkCard icon="twemoji:astonished-face" title="传感器标定" href="/droneKit/传感器问题排查/传感器标定/" > </LinkCard>
 - ### 组合你的算法并部署
   <LinkCard icon="twemoji:astonished-face" title="组合你的算法并部署" href="/droneKit/组合你的算法并部署/">  </LinkCard>
 - ### 算法可视化与评估
