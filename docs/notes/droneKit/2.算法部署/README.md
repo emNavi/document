@@ -12,7 +12,7 @@ icon: 'carbon:demo'
 ::: details 项目太旧或者损坏，需要更新项目代码 ？
 
 ```bash
-# 进入机载电脑终端，删除原有项目文件
+# 进入机载电脑终端，删除原有项目目录
 
 # 下载项目代码最新版本
 git clone --recursive https://github.com/emNavi/X152b.git
@@ -51,14 +51,4 @@ bash scripts/build.sh
 :::
 
 
-在无人机准备就绪后，仅需3步即可部署算法进行实机飞行：
-
-:::: steps
-
-- ### 传感器标定
-  <LinkCard icon="twemoji:astonished-face" title="传感器标定" href="/droneKit/传感器问题排查/传感器标定/" > </LinkCard>
-- ### 组合你的算法并部署
-  <LinkCard icon="twemoji:astonished-face" title="组合你的算法并部署" href="/droneKit/组合你的算法并部署/">  </LinkCard>
-- ### 算法可视化与评估
-  <LinkCard icon="twemoji:astonished-face" title="算法可视化与评估" href="/droneKit/算法可视化与评估/">  </LinkCard>
 

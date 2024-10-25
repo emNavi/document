@@ -11,19 +11,13 @@ icon: 'grommet-icons:install'
 
 :::: steps
 
-- ### 开箱物料清单
+- ### 开箱
+    <LinkCard icon="twemoji:astonished-face" title="开箱物料清单" href="/droneKit/开箱物料清单/" > </LinkCard>
 
-    <!-- TODO(Derkai): 缺一个开箱视频，展示物料 -->
-    缺一个开箱视频，展示物料
+- ### 使用电脑远程连接至无人机
+    <LinkCard icon="twemoji:astonished-face" title="配置远程访问" href="/droneKit/配置远程访问/" > </LinkCard>
 
-- ### 配置远程访问
-
-    <!-- TODO(Derkai): 缺一个配置远程访问视频 -->
-    缺一个配置远程访问视频
-
-- ### 进行飞行准备
-
-    <!-- TODO(Derkai): 缺一个飞行准备视频 -->
-    缺一个飞行准备视频
+- ### 确保正常飞行
+    <LinkCard icon="twemoji:astonished-face" title="进行飞行准备" href="/droneKit/进行飞行准备/" > </LinkCard>
 
 当完成以上三步后，接下来你可以进行常用算法的部署和飞行。
