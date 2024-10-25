@@ -15,6 +15,10 @@ config:
       actions:
         -
           theme: alt
+          text: 快速开始
+          link: /droneKit/
+        -
+          theme: alt
           text: Github →
           link: https://github.com/emNavi/X152b.git
   -
