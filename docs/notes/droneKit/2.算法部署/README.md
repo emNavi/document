@@ -19,7 +19,7 @@ git clone --recursive https://github.com/emNavi/X152b.git
 
 # 环境配置与模块编译
 cd X152b
-bash scripts/build.sh
+sudo bash scripts/build.sh
 ```
 :::
 
