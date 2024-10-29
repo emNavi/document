@@ -32,18 +32,18 @@ export default defineThemeConfig({
       navbar: zhNavbar,
       notes: zhNotes,
     },
-    '/en/': {
-      profile: {
-        avatar: 'https://theme-plume.vuejs.press/plume.png',
-        name: 'emNavi',
-        description: '',
-        // circle: true,
-        // location: '',
-        // organization: '',
-      },
+  //   '/en/': {
+  //     profile: {
+  //       avatar: 'https://theme-plume.vuejs.press/plume.png',
+  //       name: 'emNavi',
+  //       description: '',
+  //       // circle: true,
+  //       // location: '',
+  //       // organization: '',
+  //     },
 
-      navbar: enNavbar,
-      notes: enNotes,
-    },
+  //     navbar: enNavbar,
+  //     notes: enNotes,
+  //   },
   },
 })
