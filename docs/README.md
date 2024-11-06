@@ -3,24 +3,26 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: hero
+    type: banner
     full: true
-    banner: https://emnavi-doc-img.oss-cn-beijing.aliyuncs.com/osstest2/wallpaper/wallhaven-rrl1kj_1920x1200.png
-
-    background: tint-plate
-    tintPlate: 210
+    banner: https://emnavi-doc-img.oss-cn-beijing.aliyuncs.com/emnavi_assets/intro/index_background-modified.png
+    bannerMask:
+      light: 0.7
+      dark: 0.7
     hero:
       name: emNavi
       tagline: Embodied Navigation
+      text: 集成先进算法、聚焦具身智能导航的无人机平台
       actions:
         -
-          theme: alt
+          theme: brand
           text: 快速开始
           link: /droneKit/
         -
           theme: alt
           text: Github →
           link: https://github.com/emNavi/X152b.git
+
   -
     type: custom    
   -

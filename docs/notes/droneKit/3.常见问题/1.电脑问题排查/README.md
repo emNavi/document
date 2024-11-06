@@ -2,6 +2,7 @@
 title: 电脑问题排查
 createTime: 2024/10/24 16:06:29
 permalink: /droneKit/电脑问题排查/
+readingTime: false
 ---
 <!-- TODO(Derkai): 烧录系统镜像教程 -->
 ### 系统账户信息

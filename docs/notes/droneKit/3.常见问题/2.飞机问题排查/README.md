@@ -2,6 +2,7 @@
 title: 飞机问题排查
 createTime: 2024/10/24 11:16:29
 permalink: /droneKit/飞机问题排查/
+readingTime: false
 ---
 
 ::: warning Q: 不能正常起飞（电机不转、 电机旋转错误、 起飞时直接翻转）
