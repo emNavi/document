@@ -3,12 +3,13 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: banner
+    type: hero
     full: true
     banner: https://emnavi-doc-img.oss-cn-beijing.aliyuncs.com/emnavi_assets/intro/index_background-modified.png
     bannerMask:
       light: 0.7
       dark: 0.7
+    background: tint-plate
     hero:
       name: emNavi
       tagline: Embodied Navigation
