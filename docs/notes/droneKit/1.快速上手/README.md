@@ -12,12 +12,12 @@ icon: 'grommet-icons:install'
 :::: steps
 
 - ### 开箱
-    <LinkCard icon="twemoji:astonished-face" title="开箱物料清单" href="/droneKit/开箱物料清单/" > </LinkCard>
+    <LinkCard title="开箱物料清单" href="/droneKit/开箱物料清单/" > </LinkCard>
 
 - ### 使用电脑远程连接至无人机
-    <LinkCard icon="twemoji:astonished-face" title="配置远程访问" href="/droneKit/配置远程访问/" > </LinkCard>
+    <LinkCard title="配置远程访问" href="/droneKit/配置远程访问/" > </LinkCard>
 
 - ### 确保正常飞行
-    <LinkCard icon="twemoji:astonished-face" title="进行飞行准备" href="/droneKit/进行飞行准备/" > </LinkCard>
+    <LinkCard title="进行飞行准备" href="/droneKit/进行飞行准备/" > </LinkCard>
 
 当完成以上三步后，接下来你可以进行常用算法的部署和飞行。
