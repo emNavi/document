@@ -6,30 +6,21 @@ readingTime: false
 icon: 'carbon:demo'
 ---
 
-::: tip
-
-在出厂时已经预先配置好各算法并完成了试验，因此可以直接进行使用
-::: details 项目太旧或者损坏，需要更新项目代码 ？
+## 下载项目代码最新版本
 
 ```bash
-# 进入机载电脑终端，删除原有项目目录
+git clone --recursive https://gitee.com/emnavi/X152b.git
 
-# 下载项目代码最新版本
-git clone --recursive https://github.com/emNavi/X152b.git
-
-# 环境配置与模块编译
+# 编译(首次编译时耗时较长，需要耐心等待)
 cd X152b
-sudo bash scripts/build.sh
+catkin_make -j4
 ```
-:::
-
-::: details 不了解项目各模块功能 ？
 
 本项目提供了丰富的前沿无人机自主飞行算法，你可以通过这个文件树来简单了解该项目的各文件主要功能：
+
 ::: file-tree
 
 - scripts  \# 存放常用工具脚本
-  - build.sh \# 通用环境配置
   - one_shot_single.sh \# 无人机初始化
   - takeoff.sh \# 起飞
   - land.sh \# 降落
@@ -39,15 +30,13 @@ sudo bash scripts/build.sh
       - global_interface/ \# 接口层（存放参数文件、通讯接口等）
       - modules/ \# 飞控驱动、相机驱动、通讯驱动等实现
   - 算法1
-      - 算法1_setup.sh \# 算法环境配置脚本
-      - 算法1_run.sh \# 算法一键运行脚本
+      - setup.sh \# 算法环境配置脚本
+      - run.sh \# 算法一键运行脚本
       - ...
   - 算法2/
-      - 算法1_setup.sh \# 算法环境配置脚本
-      - 算法1_run.sh \# 算法一键运行脚本
+      - setup.sh \# 算法环境配置脚本
+      - run.sh \# 算法一键运行脚本
       - ...
   - ... \# 更多适配算法持续更新中
+
 :::
-
-
-

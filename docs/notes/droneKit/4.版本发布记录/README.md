@@ -5,3 +5,10 @@ permalink: /droneKit/版本发布记录/
 readingTime: false
 icon: 'carbon:idea'
 ---
+##
+# 0.1.0-Beta (2024.11.20)
+
+### Features
+
+- 系统使用 Ubuntu20.04.06-LST + ROS Noetic
+- 适配 [vins_fusion 视觉惯性里程计](https://github.com/emNavi/vins_fusion.git)、[Ego-Planner 规划算法](https://github.com/emNavi/ego-planner-swarm-v1.git)
