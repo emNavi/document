@@ -35,17 +35,4 @@ export const zhNotes = defineNotesConfig({
   notes: [zhDemoNote,zhDroneKitNote],
 })
 
-/* =================== locale: en-US ======================= */
-
-const enDemoNote = defineNoteConfig({
-  dir: 'demo',
-  link: '/demo',
-  sidebar: ['', 'foo', 'bar'],
-})
-
-export const enNotes = defineNotesConfig({
-  dir: 'en/notes',
-  link: '/en/',
-  notes: [enDemoNote],
-})
 

@@ -9,12 +9,7 @@ export default defineUserConfig({
     '/': {
       title: 'emNavi',
       lang: 'zh-CN',
-      description: '机器人,px4飞控设计使用心得',
-    },
-    '/en/': {
-      title: 'emNavi',
-      lang: 'en-US',
-      description: '机器人,px4飞控设计使用心得',
+      description: 'emNavi',
     },
   },
 
