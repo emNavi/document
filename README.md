@@ -12,6 +12,19 @@ git clone https://github.com/emNavi/document.git
 ## 2、配置 Vue 环境
 
 ```bash
+# 在 Ubuntu Linux 上手动添加官方 Node.js 存储库长期稳定版 LTS
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+
+# 安装 Nodejs Javascript
+sudo apt-get install -y nodejs
+
+# 安装 PNPM
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+source ~/.bashrc
+
+# 检查安装是否完成（查看版本号）
+pnpm --version
+
 # 进入文档目录下
 pnpm i
 ```
