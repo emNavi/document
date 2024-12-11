@@ -13,7 +13,7 @@ config:
     hero:
       name: emNavi
       tagline: Embodied Navigation
-      text: 集成先进算法、聚焦具身智能导航的无人机平台
+      text: 面向开放世界理解与认知、集成感算通控于一体的具身智能导航
       actions:
         -
           theme: brand
