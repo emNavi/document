@@ -13,5 +13,4 @@ icon: 'carbon:idea'
 - 适配 emnavidiscover 调试工具
 
 # **1.1.0** (2024.12.11)
-- 适配了 OpenVINS 视觉里程计算法
 - 补充了关于 vscode 远程连接到无人机等文档
