@@ -1,9 +1,9 @@
 {
-  "name": "knowledge-base",
+  "name": "emnv_doc",
   "type": "module",
   "version": "1.0.0",
-  "description": "机器人,px4飞控设计使用心得",
-  "author": "hyaline-wang <hyaline-wang>",
+  "description": "emNavi Document",
+  "author": "emNavi",
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
