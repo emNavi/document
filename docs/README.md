@@ -17,8 +17,12 @@ config:
       actions:
         -
           theme: brand
-          text: 快速开始
+          text: X152b飞行平台
           link: /droneKit/
+        -
+          theme: brand
+          text: AirGym Sim2Real
+          link: /AirGym/
         -
           theme: alt
           text: Github →

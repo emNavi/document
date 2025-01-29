@@ -28,11 +28,25 @@ const zhDroneKitNote = defineNoteConfig({
   sidebar: 'auto',
 })
 
+const enAirGymNote = defineNoteConfig({
+  dir: 'AirGym',
+  link: '/AirGym/',
+  sidebar: [
+    { text: 'AirGym Sim2Real', link: '/AirGym/'},
+    { text: 'System Overview',  link: '/AirGym/Overview/'},
+    { text: 'AirGym-Sim',  link: '/AirGym/AirGym-Sim/', collapsed: true, 
+      items:[{text: 'Dynamics', link: '/AirGym/AirGym-Sim/dynamics/'},
+        {text: 'Tasks', link: '/AirGym/AirGym-Sim/tasks/'},]},
+    { text: 'rlPx4Controller',  link: '/AirGym/rlPx4Controller/'},
+    { text: 'AirGym-Real',  link: '/AirGym/AirGym-Real/',},
+    { text: 'control_for_gym',  link: '/AirGym/control_for_gym/'},]
+
+})
 
 export const zhNotes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [zhDemoNote,zhDroneKitNote],
+  notes: [zhDemoNote,zhDroneKitNote, enAirGymNote],
 })
 
 

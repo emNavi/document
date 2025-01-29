@@ -48,3 +48,8 @@
   --vp-c-text-3: rgba(235, 235, 245, 0.38);
   */
 }
+
+.custom-line-height {
+  font-size: 14px; 
+  line-height: 1.5;
+}
