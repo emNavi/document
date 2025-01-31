@@ -9,7 +9,7 @@ permalink: /AirGym/
 
 <div>
 <video width="900" controls>
-    <source src="https://emnavi-doc-img.oss-cn-beijing.aliyuncs.com/emnavi_video/airgym/final1.0_1.mp4" type="video/mp4" />
+    <source src="https://emnavi-doc-img.oss-cn-beijing.aliyuncs.com/emnavi_video/airgym/final2.0_pressed.mp4" type="video/mp4" />
 </video>
 </div>
 
