@@ -10,7 +10,7 @@ export default defineThemeConfig({
   // your git repo url
   docsRepo: '',
   docsDir: 'docs',
-  footer: {message:"联系方式: +86 13781720761",copyright:"Copyright © 2025 emNavi 版权所有"},
+  footer: {message:"京ICP备2025111037号    联系方式: +86 18910736716",copyright:"Copyright © 2025 emNavi.All Rights Reserved."},
   appearance: true,
 
 
