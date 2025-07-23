@@ -24,6 +24,10 @@ config:
           text: AirGym Sim2Real
           link: /AirGym/
         -
+          theme: brand
+          text: X280飞行平台
+          link: /X280/
+        -
           theme: alt
           text: Github →
           link: https://github.com/emNavi/X152b.git
