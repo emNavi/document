@@ -1,6 +1,6 @@
 # emNavi 文档构建说明
 
-[![pages-build-deployment](https://github.com/emNavi/document/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master&event=page_build)](https://github.com/emNavi/document/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/emNavi/document/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/emNavi/document/actions/workflows/pages/pages-build-deployment)
 
 
 emNavi 文档地址：[https://emnavi.tech](https://emnavi.tech)
