@@ -1,7 +1,6 @@
 # emNavi 文档构建说明
 
-[![Documentation Status](https://readthedocs.org/projects/x152b/badge/?version=latest)](https://x152b.readthedocs.io/en/latest/?badge=latest)
-
+[![pages-build-deployment](https://github.com/emNavi/document/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master&event=page_build)](https://github.com/emNavi/document/actions/workflows/pages/pages-build-deployment)
 emNavi 文档地址：[https://emnavi.tech](https://emnavi.tech)
 
 ## 1、下载项目
