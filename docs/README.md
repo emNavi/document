@@ -27,10 +27,14 @@ config:
           theme: brand
           text: X280飞行平台
           link: /X280/
+        # - 
+        #   theme: brand
+        #   text: Discover
+        #   link: /discover/
         -
           theme: alt
           text: Github →
-          link: https://github.com/emNavi/X152b.git
+          link: https://github.com/emNavi
 
   -
     type: custom    
