@@ -2,13 +2,14 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export const zhNavbar = defineNavbarConfig([
   { text: '首页', link: '/' },
-  // TODO(Derkai): 先不加
-  // {
-  //   text: '开发指南',
-  //   icon: 'material-symbols:menu-book',
-  //   items: [{ text: '无人机开发套件', link: '/notes/droneKit/README.md' },
-  //   ]
-  // },
+  {
+    text: '飞行平台系列',
+    icon: 'material-symbols:airplane-ticket',
+    items: [
+      { text: 'X152b 飞行平台', link: '/notes/X152b/README.md' },
+      { text: 'X280 飞行平台', link: '/notes/X280/README.md' },
+    ]
+  },
   // {text: '关于', link: '/about.md'}
 ])
 
