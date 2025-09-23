@@ -19,10 +19,11 @@ config:
           theme: brand
           text: AirGym Sim2Real
           link: /AirGym/
-        -
-          theme: brand
-          text: X280飞行平台
-          link: /X280/
+        # -
+        #   theme: brand
+        #   text: X280飞行平台
+        #   link: /X280/
+        
         # - 
         #   theme: brand
         #   text: Discover
