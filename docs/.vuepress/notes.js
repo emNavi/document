@@ -22,18 +22,23 @@ const zhDemoNote = defineNoteConfig({
   // ]
 })
 
-const zhMaidouNote = defineNoteConfig({
+const zhX280Note = defineNoteConfig({
   dir: 'X280',
   link: '/X280',
   sidebar: 'auto',
 })
 
-const zhDroneKitNote = defineNoteConfig({
-  dir: 'droneKit',
-  link: '/droneKit',
+const zhX152bNote = defineNoteConfig({
+  dir: 'X152b',
+  link: '/X152b',
   sidebar: 'auto',
 })
 
+const zhDiscoverNote = defineNoteConfig({
+  dir: 'Discover',
+  link: '/discover',
+  sidebar: 'auto',
+})
 const enAirGymNote = defineNoteConfig({
   dir: 'AirGym',
   link: '/AirGym/',
@@ -52,7 +57,7 @@ const enAirGymNote = defineNoteConfig({
 export const zhNotes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [zhDemoNote,zhMaidouNote,zhDroneKitNote, enAirGymNote],
+  notes: [zhDemoNote,zhX280Note,zhDroneKitNote, enAirGymNote, zhDiscoverNote],
 })
 
 

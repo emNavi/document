@@ -22,7 +22,7 @@ export default defineUserConfig({
     encrypt: {
       rules: {
         // 可以是 md 文件的相对路径，对该文件加密
-        '/droneKit/4.版本发布记录/1.产品生产文档.md': '123456',
+        '/X152b/4.版本发布记录/1.产品生产文档.md': '123456',
       }
     },
 
