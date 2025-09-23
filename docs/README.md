@@ -17,16 +17,12 @@ config:
       actions:
         -
           theme: brand
-          text: X152b飞行平台
-          link: /droneKit/
-        -
-          theme: brand
           text: AirGym Sim2Real
           link: /AirGym/
-        -
-          theme: brand
-          text: X280飞行平台
-          link: /X280/
+        # -
+        #   theme: brand
+        #   text: GhostLoc 高空视觉定位系统
+        #   link: /GhostLoc/
         -
           theme: alt
           text: Github →
