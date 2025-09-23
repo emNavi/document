@@ -57,7 +57,7 @@ const enAirGymNote = defineNoteConfig({
 export const zhNotes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [zhDemoNote,zhX280Note,zhDroneKitNote, enAirGymNote, zhDiscoverNote],
+  notes: [zhDemoNote,zhX280Note,zhX152bNote, enAirGymNote, zhDiscoverNote],
 })
 
 
