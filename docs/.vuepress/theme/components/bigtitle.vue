@@ -4,7 +4,7 @@ import { ref, defineProps } from 'vue'
 const props = defineProps({
     videoUrl: {
         type: String,
-        default: 'http://file.emnavi.tech/GhostLocVideo/GNSS_VPS_demo3.mp4' // 替换为你的视频链接
+        default: 'https://file.emnavi.tech/MEDIA_ASSETS/GhostLoc/ghostloc_intro_video.m4v' // 替换为你的视频链接
     },
     planetUrl: {
         type: String,
@@ -106,9 +106,9 @@ const buttonText = ref(props.buttonText)
 .bigtitle-video {
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 44%;
     transform: translateY(-50%);
-    width: 60vw;
+    width: 65vw;
     height: 100vh;
     object-fit: cover;
     z-index: 1;

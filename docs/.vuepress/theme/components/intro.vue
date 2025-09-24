@@ -2,13 +2,16 @@
     <div class="intro-container">
         <h1 class="intro-title"></h1>
         <div class="intro-content">
-            <p>
+            <p style="font-family: Poppins, PingFang SC, Microsoft YaHei, Helvetica Neue, Hiragino Sans GB, WenQuanYi Micro Hei, Arial, 'sans-serif';">
                 为了在 GPS 信号拒止的环境中实现精准的飞行定位，我们将视觉惯性里程计 (VIO) 与视觉定位系统 (VPS) 相结合，实现了 GhostLoc 系统。该系统仅需使用单个摄像头、消费级惯性测量单元 (IMU) 和气压计，即可在飞行中提供与 GPS 相当的精度。
             </p>
-            <p>
-                易部署，手掌尺寸，轻量级设计，满足各型飞行载具
 
-                先进定位融合算法，保证常见飞行场景下 6 Dof 位姿数据，高空米级定位精度，定位轨迹平滑。。
+            <div class="lrshow-image">
+              <img src="https://file.emnavi.tech/MEDIA_ASSETS/GhostLoc/sat_loc_result.png" alt="Feature Image" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            </div>
+
+            <p>
+                易部署，手掌尺寸，轻量级设计，满足各型飞行载具。先进定位融合算法，保证常见飞行场景下 6 Dof 位姿数据，高空米级定位精度，定位轨迹平滑。
             </p>
         </div>
         <div class="intro-video-container">
@@ -69,6 +72,7 @@
     margin: 60px auto 0 auto;
     padding: 0 24px;
     text-align: left;
+    font-family: Poppins, PingFang SC, Microsoft YaHei, Helvetica Neue, Hiragino Sans GB, WenQuanYi Micro Hei, Arial, "sans-serif";
 }
 
 .intro-title {
@@ -76,6 +80,7 @@
     font-weight: bold;
     margin-bottom: 48px;
     color: #111217;
+    font-family: Poppins, PingFang SC, Microsoft YaHei, Helvetica Neue, Hiragino Sans GB, WenQuanYi Micro Hei, Arial, "sans-serif";
 }
 
 .intro-content p {
@@ -83,6 +88,7 @@
     line-height: 1.6;
     color: #22232a;
     margin-bottom: 24px;
+    font-family: Poppins, PingFang SC, Microsoft YaHei, Helvetica Neue, Hiragino Sans GB, WenQuanYi Micro Hei, Arial, "sans-serif";
 }
 
 .intro-button {
@@ -96,6 +102,7 @@
     font-weight: 400;
     cursor: pointer;
     transition: background 0.2s;
+    font-family: Poppins, PingFang SC, Microsoft YaHei, Helvetica Neue, Hiragino Sans GB, WenQuanYi Micro Hei, Arial, "sans-serif";
 }
 
 .intro-button:hover {

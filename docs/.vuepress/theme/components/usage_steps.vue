@@ -40,7 +40,7 @@
                 <rect x="30" y="50" width="80" height="40" rx="10" stroke="#B3B3C6" stroke-width="2"/>
                 <rect x="60" y="60" width="40" height="20" rx="8" fill="#000" stroke="#B3B3C6" stroke-width="2"/>
                 <rect x="75" y="65" width="20" height="10" rx="5" fill="#3BB3FF"/>
-                <text x="85" y="73" text-anchor="middle" alignment-baseline="middle" font-size="10" fill="#222">AR</text>
+                <text x="85" y="73" text-anchor="middle" alignment-baseline="middle" font-size="10" fill="#222"></text>
                 <circle cx="40" cy="60" r="5" fill="#B3B3C6"/>
             </svg>
         </div>
