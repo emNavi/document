@@ -12,6 +12,7 @@
                 <path d="M70 70L120 120" stroke="#3BB3FF" stroke-width="2" />
                 <rect x="60" y="60" width="20" height="20" stroke="#3BB3FF" stroke-width="2" />
             </svg>
+            
         </div>
         <div class="card">
             <svg width="140" height="140" viewBox="0 0 140 140" fill="none">
@@ -140,6 +141,27 @@ html[data-theme="dark"] .step {
 .hero-bottom {
     height: 120px;
 }
+
+@media (max-width: 980px) {
+
+.card {
+    background: var(--c-card);
+    border-radius: 48px;
+    border: 2px solid #d6d7d8;
+    width: calc(420px * 0.2);
+    height: calc(340px * 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.steps-row {
+    flex-direction: column;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+}
+
 
 /* ---------- 主题变量 ---------- */
 

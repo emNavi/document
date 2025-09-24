@@ -126,5 +126,17 @@ html[data-theme="dark"] img {
     color: #86909e;
     line-height: 1.7;
 }
+
+@media (max-width: 980px) {
+.lrshow-container {
+    flex-direction: column;
+    }
+.lrshow-image {
+    width: 100%;
+    height: 200px;
+    flex: none;
+}
+
+}
 </style>
 
