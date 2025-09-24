@@ -119,9 +119,44 @@ const buttonText = ref(props.buttonText)
     mask-image: radial-gradient(circle at 60% 50%, #000 70%, transparent 100%);
     -webkit-mask-image: radial-gradient(circle at 60% 50%, #000 70%, transparent 100%);
 }
-@media (max-width: 900px) {
+@media (max-width: 980px) {
     .bigtitle-title {
         font-size: 2.2rem;
+        /* vertical-align: bottom; */
+    }
+    .bigtitle-video {
+        width: 100%;
+        height: 100%;
+        justify-content: flex-end;
+        max-height: 60vh;
+        left: 0;
+        right: 0;
+        top: 0vh;
+        bottom: 0;
+        opacity: 0.9;
+        position: absolute;
+        transform: none;
+        /* object-fit: cover; */
+        object-position: center right;
+        max-width: 100vw;
+    }
+    .bigtitle-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        /* min-height: 50vh; */
+        background: #000;
+        position: relative;
+        overflow: hidden;
+    }
+}
+/* @media (max-width: 600px) {
+    .bigtitle-subtitle {
+        font-size: 0.9rem;
+    }
+    .bigtitle-btn {
+        padding: 10px 24px;
+        font-size: 0.9rem;
     }
     .bigtitle-video {
         width: 100vw;
@@ -132,11 +167,7 @@ const buttonText = ref(props.buttonText)
         bottom: 0;
         height: 50vh;
         transform: none;
-        object-position: center bottom;
+        object-position: top bottom;
     }
-    .bigtitle-content {
-        margin-left: 12px;
-        max-width: 95vw;
-    }
-}
+} */
 </style>
