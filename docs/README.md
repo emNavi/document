@@ -15,10 +15,10 @@ config:
       tagline: Embodied Navigation
       text: 面向开放世界理解与认知、集成感算通控于一体的具身智能导航
       actions:
-        -
-          theme: brand
-          text: AirGym Sim2Real
-          link: /AirGym/
+        #-
+        #  theme: brand
+        #  text: AirGym Sim2Real
+        #  link: /AirGym/
         # -
         #   theme: brand
         #   text: X280飞行平台
@@ -29,12 +29,12 @@ config:
         #   text: Discover
         #   link: /discover/
         
-        # -
-        #   theme: brand
-        #   text: GhostLoc 高空视觉定位系统
-        #   link: /GhostLoc/
+        #-
+        #  theme: brand
+        #  text: GhostLoc 高空视觉定位系统
+        #  link: /GhostLoc/
         -
-          theme: alt
+          theme: brand
           text: Github →
           link: https://github.com/emNavi
 
