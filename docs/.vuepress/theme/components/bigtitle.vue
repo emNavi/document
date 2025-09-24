@@ -4,7 +4,7 @@ import { ref, defineProps } from 'vue'
 const props = defineProps({
     videoUrl: {
         type: String,
-        default: 'http://file.emnavi.tech/GhostLocVideo/GNSS_VPS_demo3.mp4' // 替换为你的视频链接
+        default: 'https://file.emnavi.tech/MEDIA_ASSETS/GhostLoc/ghostloc_intro_video.m4v' // 替换为你的视频链接
     },
     planetUrl: {
         type: String,
@@ -20,7 +20,7 @@ const props = defineProps({
     },
     buttonText: {
         type: String,
-        default: '开始'
+        default: 'EXPLORE'
     }
 })
 const videoUrl = props.videoUrl
@@ -36,10 +36,10 @@ const buttonText = ref(props.buttonText)
                 <span v-for="line in title.split('\n')" :key="line">{{ line }}</span>
             </h1>
             <p class="bigtitle-subtitle">{{ subtitle }}</p >
-            <button class="bigtitle-btn">
+            <a href="#next-section" class="bigtitle-btn">
                 {{ buttonText }}
                 <span class="arrow">→</span>
-            </button>
+            </a>
         </div>
         <video
             class="bigtitle-video"
@@ -92,9 +92,12 @@ const buttonText = ref(props.buttonText)
     border-radius: 6px;
     cursor: pointer;
     transition: background 0.2s, color 0.2s;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .bigtitle-btn:hover {
     background: #fff;
@@ -106,9 +109,9 @@ const buttonText = ref(props.buttonText)
 .bigtitle-video {
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 44%;
     transform: translateY(-50%);
-    width: 60vw;
+    width: 65vw;
     height: 100vh;
     object-fit: cover;
     z-index: 1;

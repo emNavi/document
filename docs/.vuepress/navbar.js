@@ -10,7 +10,7 @@ export const zhNavbar = defineNavbarConfig([
       { text: 'X280 飞行平台', link: '/notes/X280/README.md' },
     ]
   },
-  // {text: '视觉定位导航套件', link: '/notes/GhostLoc/README.md'}
+  {text: '视觉定位导航套件', link: '/notes/GhostLoc/README.md'}
   // {text: '关于', link: '/about.md'}
 ])
 
