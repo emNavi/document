@@ -20,7 +20,7 @@ const props = defineProps({
     },
     buttonText: {
         type: String,
-        default: '开始'
+        default: 'EXPLORE'
     }
 })
 const videoUrl = props.videoUrl
@@ -36,10 +36,10 @@ const buttonText = ref(props.buttonText)
                 <span v-for="line in title.split('\n')" :key="line">{{ line }}</span>
             </h1>
             <p class="bigtitle-subtitle">{{ subtitle }}</p >
-            <button class="bigtitle-btn">
+            <a href="#next-section" class="bigtitle-btn">
                 {{ buttonText }}
                 <span class="arrow">→</span>
-            </button>
+            </a>
         </div>
         <video
             class="bigtitle-video"
@@ -92,9 +92,12 @@ const buttonText = ref(props.buttonText)
     border-radius: 6px;
     cursor: pointer;
     transition: background 0.2s, color 0.2s;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .bigtitle-btn:hover {
     background: #fff;

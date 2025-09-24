@@ -63,27 +63,42 @@ const props = defineProps({
                 </ul>
             </div>
         </div>
-        <div class="specs-btn-wrap">
+        <!-- <div class="specs-btn-wrap">
             <button class="specs-btn">Full Specs</button>
-        </div>
+        </div> -->
+        <br/>
+        <br/>
     </div>
+    
 </template>
 
-<style scoped>
+<style>
 /* 样式同前 */
-.specs-container {
-    background: #000;
-    color: #fff;
+html[data-theme="light"] .specs-container {
+    background: #ffffff;
     padding: 40px 20px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     font-family: 'Montserrat', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.65);
 }
+
+
+html[data-theme="dark"] .specs-container {
+    background: rgb(27, 27, 31);
+    padding: 40px 20px;
+    /* min-height: 100vh; */
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.65);
+}
+
 .specs-title {
     text-align: center;
     font-size: 2.8rem;
     font-weight: bold;
     margin-bottom: 40px;
 }
+
+
 .specs-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));

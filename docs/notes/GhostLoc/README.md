@@ -6,11 +6,27 @@ config:
     - 
         type: BigTitle
         planetUrl: "https://w.wallhaven.cc/full/d5/wallhaven-d5vkgl.jpg"
-        buttonText: "开始"
+        buttonText: "EXPLORE"
     - type: Intro
-    - type: Feature1
-    - type: Feature2
-    - type: Feature3
+    - 
+      type: FeatureType1
+      title: 无惧干扰
+      subtitle: 天空地表皆智能，一体适配全场景
+      description: 仅使用内置传感器，无惧GNSS拒止环境，100 km² 区域，首次大范围搜索定位所需时间低于5秒。后续持续提供不低于 15Hz 的 6-Dof 平滑定位输出
+
+      imageUrl: http://file.emnavi.tech/MEDIA_ASSETS/GhostLoc/GhostLoc_render.png
+    - 
+      type: FeatureType2
+      title: 全域定位
+      subtitle: 鹰隼难及之地，也能从容应对
+      description: 自研 VIO+VPS 融合定位算法，海量数据训练感知模型，适用各种复杂场景
+      imageUrl: http://file.emnavi.tech/MEDIA_ASSETS/GhostLoc/ghost_vps1.png  
+    - 
+      type: FeatureType1
+      title: 轻巧澎湃
+      subtitle: 轻巧之躯，硬核之芯，任意平台轻松驾驭
+      description: 仅使用单个摄像头、消费级惯性测量单元 (IMU) 和气压计，手掌尺寸，轻量级设计，满足各型飞行载具。
+      imageUrl: http://file.emnavi.tech/MEDIA_ASSETS/GhostLoc/m300drone_payload.jpg
     - type: UsageSteps
 
     -
