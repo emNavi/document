@@ -14,7 +14,7 @@ X280 是一款集成了固态激光雷达 Livox-Mid-360、双目深度相机 Rea
 
 <!-- TODO(Derkai):修改图片 -->
 <ImageCard
-  image="https://emnavi-doc-img.oss-cn-beijing.aliyuncs.com/emnavi_assets/X280/X280_2.jpg"
+  image="https://file.emnavi.tech/MEDIA_ASSETS/X152b/X280_main.jpg"
   title="X280"
   description="集成了的固态激光雷达 Livox-Mid-360、双目深度相机 D455、轻量级机载算力平台 NVIDIA Jetson Orin NX、 PX4 飞控、以及穿越机动力套件的自主飞行无人机"
   href="/"
