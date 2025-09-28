@@ -12,9 +12,8 @@ readingTime: false
 
 X152b 是一款集成了双目深度相机 D430、轻量级机载算力平台 Edge2、 PX4 飞控、以及穿越机动力套件的自主飞行无人机。
 
-<!-- TODO(Derkai):修改图片 -->
 <ImageCard
-  image="https://emnavi-doc-img.oss-cn-beijing.aliyuncs.com/emnavi_assets/intro/X152b-main.png"
+  image="https://file.emnavi.tech/MEDIA_ASSETS/X152b/X152b-main.png"
   title="X152b"
   description="集成了双目深度相机 D430、轻量级机载算力平台 Edge2、 PX4 飞控、以及穿越机动力套件的自主飞行无人机。"
   href="/"
